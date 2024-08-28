@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 body {
     box-sizing: border-box;
-    display: block;
+    display: grid;
     margin: 0%;
     padding: 0%;
     background-color: rgb(208, 221, 247);
@@ -10,24 +10,37 @@ body {
 }
 
 header {
-background-color: hsl(204, 100%, 84%);
-display: flex;
 align-items:center;
 justify-content: space-between;
-padding: 20px 15px;
 color: #020b5c;
 
 }
+.top{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    border: #be5525;
+    
+}
+    
+
 nav {    
+    background-color: hsl(204, 66%, 69%);
     align-items: center;
     justify-items: center;
     justify-content: space-around;
     display: flex;
-    padding-inline: 20px;
+    text-decoration: none;
+    
+    
     
     
 }
-   
+li:hover {
+    background-color: rgb(86, 125, 202);
+
+}
 li  {
     list-style: none;
     display: inline-block;
@@ -37,12 +50,17 @@ li  {
     list-style: none;
 }
 
-li, a, button, {
+li, a, button, .logo {
     text-decoration: none;
     justify-content: space-between;
 }
 
+a:visited {
+    color: #020b5c;
+}
+
 .logo  {
+
     color: #020b5c;
     font-size: 20px;
     font-weight: bold;
