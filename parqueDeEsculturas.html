@@ -3,28 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parque de Esculturas</title>
+    <title>Parque de Esculturas Francisco Brennand</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
         
-        <section class="navBar">
-            <nav class ="Menu">
-                <span class="logo">Marco Zero</span>
-                <ul class = "menuItens">
-                    <li><a href="#" class="menuLink">Página inicial</a></li>
-                    <li><a href="#" class="menuLink">História</a></li>
-                    <li><a href="#" class="menuLink">Destinos Turísticos</a></li>
-                    <li><a href="#" class="menuLink">Cultura e Eventos</a></li>
-                    <li><a href="#" class="menuLink">Curiosidades</a></li>
-                    <li><a href="#" class="menuLink">Fale conosco</a></li>
-                </ul>
-                <a href="#"><button>Cadastro</button></a>
-            </nav>
-            
+        <section class="top">
+            <div class="logo">
+                <a href="index.html">Marco Zero</a>
+            </div>
+            <a href="#" class="cadastro"><button>Cadastro</button></a>
         </section>
+        <nav class="navbar">
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="#">História</a></li>
+                <li class="dropdown">
+                    <a href="#">Destinos Turísticos<i class="bi bi-caret-down-fill"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="parqueDeEsculturas.html">Parque das Esculturas</a></li>
+                        <li><a href="embaixadaDosBonecos.html">Embaixada dos Bonecos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Depoimentos</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+            </ul>
+           
+        </nav>
         
     </header>
     <main>
@@ -41,11 +49,15 @@ O Parque de Esculturas Francisco Brennand, localizado no Recife, é um fascinant
 
     </main>
     <footer>
-        <span class="logo">Marco Zero</span>
-        <ul>
-            <li><a href="#">Fale Conosco</a></li>
-            <li>©Copyright 2024</li>
-        </ul>
+        <div class="logo">
+            <a href="index.html">Marco Zero</a>
+        </div>
+        <section >
+            <ul class="endlist">
+                <li><a href="#">Fale Conosco</a></li>
+                <li>©Copyright 2024</li>
+            </ul>
+        </section>
         
     </footer>
     
